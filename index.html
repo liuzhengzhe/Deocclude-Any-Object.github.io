@@ -204,26 +204,15 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-Deoccluding the hidden portions of objects in a scene is a for-
-midable task, particularly when addressing real-world scenes. In
-this paper, we present a new self-supervised PArallel visible-to-
-COmplete diffusion framework, named PACO, a foundation model
-for object-level scene deocclusion. Leveraging the rich prior of pre-
-trained models, we first design the parallel variational autoencoder,
-which produces a full-view feature map that simultaneously en-
-codes multiple complete objects, and the visible-to-complete latent
-generator, which learns to implicitly predict the full-view feature
-map from partial-view feature map and text prompts extracted from
-the incomplete objects in the input image. To train PACO, we create
-a large-scale dataset with 500k samples to enable self-supervised
-learning, avoiding tedious annotations of the amodal masks and
-occluded regions. At inference, we devise a layer-wise deocclusion strategy to improve efficiency while maintaining the deocclusion
-quality. Extensive experiments on COCOA and various real-world
-scenes demonstrate the superior capability of PACO for scene de-
-occlusion, surpassing the state of the arts by a large margin. Our
-method can also be extended to cross-domain scenes and novel
-categories that are not covered by the training set. Further, we
-demonstrate the deocclusion applicability of PACO in single-view
+Deoccluding the hidden portions of objects in a scene is a formidable task, particularly when addressing real-world scenes. In
+this paper, we present a new self-supervised PArallel visible-to-COmplete diffusion framework, named PACO, a foundation model
+for object-level scene deocclusion. Leveraging the rich prior of pre-trained models, we first design the parallel variational autoencoder,
+which produces a full-view feature map that simultaneously encodes multiple complete objects, and the visible-to-complete latent
+generator, which learns to implicitly predict the full-view feature map from partial-view feature map and text prompts extracted from
+the incomplete objects in the input image. To train PACO, we create a large-scale dataset with 500k samples to enable self-supervised
+learning, avoiding tedious annotations of the amodal masks and occluded regions. At inference, we devise a layer-wise deocclusion strategy to improve efficiency while maintaining the deocclusion
+quality. Extensive experiments on COCOA and various real-world scenes demonstrate the superior capability of PACO for scene de-occlusion, surpassing the state of the arts by a large margin. Our
+method can also be extended to cross-domain scenes and novel categories that are not covered by the training set. Further, we demonstrate the deocclusion applicability of PACO in single-view
 3D scene reconstruction and object recomposition. 
           </p>
         </div>
